@@ -17,7 +17,7 @@ docker run -p 8501:8501 compensation-app
 ```
 5. You can now view your Streamlit app in your browser: http://0.0.0.0:8501
 
-### Running the App in locally
+### Running the App locally
 To run the Streamlit app locally, follow these steps:
 
 1. Clone this repository and open in VS Code.
