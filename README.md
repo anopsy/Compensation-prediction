@@ -3,7 +3,9 @@
 
 
 
-After analyzing the data from the [Juniors vs ChatGPT study](https://github.com/anopsy/Juniors_vs_ChatGPT), I decided to use the compensation estimation data to build an app that predicts compensation for various engineering roles. The model was developed using data provided by [SourceStack](https://sourcestack.co/).
+After analyzing the data from the [Juniors vs ChatGPT study](https://github.com/anopsy/Juniors_vs_ChatGPT), I decided to use the compensation estimation data to build an app that predicts compensation for various engineering roles. 
+After cleaning, I built a baseline model and later experimented with different regression models. After hyperparameters tuning I decided to go for the SVC model with rbf kernel. 
+The model was developed using data provided by [SourceStack](https://sourcestack.co/).
 
 ### Running the App in a Docker Container
 To run the Streamlit app in a Docker container, follow these steps:
@@ -33,3 +35,6 @@ pip install -r requirements.txt
 streamlit run ./comp_app.py
 ```
 4. You can now view the Compensation App in your browser by following one of the links from your terminal
+
+### Next steps
+I would like to fine-tune the model for Data Science jobs specifically.
