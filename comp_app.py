@@ -3,7 +3,7 @@ import pandas as pd
 from joblib import load
 
 
-model = load("./rbf_model.joblib")
+model = load("/app/rbf_model.joblib")
 
 def show_predict_page():
     st.title("Engineering Compensation Prediction")
@@ -102,7 +102,7 @@ def show_predict_page():
         })
 
         estimation = model.predict(df_predict)
-        scaler_loaded = load('/home/anopsy/Portfolio/comp_app/scaler.joblib')
+        scaler_loaded = load('/app/scaler.joblib')
         salary = scaler_loaded.inverse_transform([estimation])
 
         st.subheader(f"The estimated salary is ${salary[0][0]:,.0f}")
