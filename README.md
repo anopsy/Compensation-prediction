@@ -1,5 +1,6 @@
 ## Compensation Prediction for Engineering Roles
-![image](https://github.com/user-attachments/assets/83b56c2d-21de-490a-ab07-5a1327dd838b)
+![image](https://github.com/user-attachments/assets/aa1a72be-488b-46f8-842d-aeba8db7ed5f)
+
 
 
 After analyzing the data from the [Juniors vs ChatGPT study](https://github.com/anopsy/Juniors_vs_ChatGPT), I decided to use the compensation estimation data to build an app that predicts compensation for various engineering roles. The model was developed using data provided by [SourceStack](https://sourcestack.co/).
